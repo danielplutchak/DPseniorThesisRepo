@@ -35,7 +35,7 @@ If you have any questions feel free to ask me! I'll answer professor questions, 
 
 ## Introduction
 
-I shoot on film
+I shoot on film...
 
 ### Purpose
 
@@ -64,7 +64,7 @@ This app is intended to function by using information from the camera and creati
 ## Overview
 The Mahoney University Registration System is a web-based platform designed to automate the course registration process for students and faculty. It serves as the primary interface for students to manage their academic schedules and for university staff to oversee the course offerings and registration workflows.
 
-The Multi Light Meter app is an IOS app designed to provide a fast and efficient output of what camera settings would be appropriate for this 
+The Multi Light Meter app is an IOS app designed to provide a fast and efficient output of what camera settings would be appropriate for the what the camera is pointing at.
 
 ### System Features:
 1. **Secure Login**: Ensures that only authorized users (students, faculty, and staff) have access to the system, with user authentication based on university credentials.
