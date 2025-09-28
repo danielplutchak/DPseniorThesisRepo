@@ -2,19 +2,23 @@
 
 ### This week I worked on:
 
-[Your answer here]
+* Researching how a light meter works
+* Creating my initial specification
 
 ### This week I learned:
 
-[Your answer here]
+* What LUX value is
+* How a light meter translates LUX value to exposure settings
+* ISO stand for International Organization for Standardaztion
 
 ### My successes this week were:
 
-[Your answer here]
+* Creating a solid initial spec that outlines the main features I want in my app
+* Learning how light meters work
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Figuring out how I will get access to a MAC to use Apple's IDE
 
 ---
 
