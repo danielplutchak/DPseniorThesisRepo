@@ -1,4 +1,4 @@
-## Week 1 Summary (MM/DD/YYYY)
+## Week 1 Summary (09/27/2025)
 
 ### This week I worked on:
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Week 2 Summary (MM/DD/YYYY)
+## Week 2 Summary (10/05/2025)
 ### This week I worked on:
 
 [Your answer here]
