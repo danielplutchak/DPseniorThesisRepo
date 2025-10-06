@@ -85,7 +85,7 @@ The Multi Light Meter app is an IOS app designed to provide a fast and efficient
 
 **Alternative Courses**:
 - **Step 1**: Camera is reading too little light
-  2. Displays: "Too little light, try pointing the camera at something brighter."
+  1. Displays: "Too little light, try pointing the camera at something brighter."
 
 ### Use Case 1.2: Standard Mode /w Locking feature
 - **Actors**: User
@@ -98,8 +98,8 @@ The Multi Light Meter app is an IOS app designed to provide a fast and efficient
 
 **Alternative Courses**:
 - **Step 1**: User locks two settings
-  2. Camera is pointed at something
-  3. The one remaining setting is calculated and returned
+  1. Camera is pointed at something
+  2. The one remaining setting is calculated and returned
 
 ### Use Case 1.3: Multiple Exposure Mode
 - **Actors**: User
