@@ -25,19 +25,24 @@
 ## Week 2 Summary (10/05/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Looking into options for getting my hands on a Mac or find a workaround
+* Researching how double exposures work on light meters
 
 ### This week I learned:
 
-[Your answer here]
+* Using Xcode on a virtual machine does not work well for developing IOS apps according to multiple accounts online
+* Purchasing a used Mac Mini is fairly inexpensive and would work for this project
+* When using a normal light meter for multiple exposures, the final result usually comes out thin
+* Swift is the programming language used for IOS app development 
 
 ### My successes this week were:
 
-[Your answer here]
+* Finding a feasible way to get my hands on a Mac
+* Getting a better understanding with how light meters work for double exposures
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Trying to understand how Swift works
 
 ---
 
