@@ -46,22 +46,23 @@
 
 ---
 
-## Week 3 Summary (MM/DD/YYYY)
+## Week 3 Summary (10/12/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Starting to understand Swift
 
 ### This week I learned:
 
-[Your answer here]
+* C++ and Swift do have a good amount of similarities (e.g. structs and functionality with C libraries)
+* I will need to do some work in a test environment since I learn much better with hands-on work
 
 ### My successes this week were:
 
-[Your answer here]
+* Finding good resources to learn Swift
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Understanding syntax in Swift
 
 ---
 
