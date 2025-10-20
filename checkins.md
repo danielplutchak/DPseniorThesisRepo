@@ -66,22 +66,24 @@
 
 ---
 
-## Week 4 Summary (MM/DD/YYYY)
+## Week 4 Summary (10/19/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Learning Swift
 
 ### This week I learned:
 
-[Your answer here]
+* The differences between classes and structs and the difference between their C++ counterparts
+* Swift's "Numerics" library
 
 ### My successes this week were:
 
-[Your answer here]
+* Starting to plan how I can implement the light meter calculations in swift
+* Planning how the structure of my code will look like
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Memorizing the syntax in Swift, I defintely need to spend more time with the language before I feel comfortable
 
 ---
 
