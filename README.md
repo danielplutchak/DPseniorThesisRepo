@@ -62,6 +62,7 @@ This app is intended to function by using information from the camera and creati
 - **Aperture**: How small or large the opening of the camera lens is, measured in f-stop. The larger the opening, the brighter the photo is. Also controls the depth of field.
 - **f-stop**: A measure of how small or large the aperture is. The smaller the f-stop, the larger the aperture.
 - **ISO**: Stands for “International Organisation for Standardisation.” A measurement that describes the "speed" of the film. The higher the ISO, the brighter and grainer the image will be.
+- **EV**: Stands for "exposure value," a value that represents the combination of the shutter speed and aperature settings that create a specific exposure.
 
 ## Overview
 The Mahoney University Registration System is a web-based platform designed to automate the course registration process for students and faculty. It serves as the primary interface for students to manage their academic schedules and for university staff to oversee the course offerings and registration workflows.
