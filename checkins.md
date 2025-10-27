@@ -87,22 +87,25 @@
 
 ---
 
-## Week 5 Summary (MM/DD/YYYY)
+## Week 5 Summary (10/26/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Looking into options for a Mac if I cannot get one through Carthage
+* Planning for how the backend for the light meter can be implemented
 
 ### This week I learned:
 
-[Your answer here]
+* The LUX value cannot be put directly into the formula to calculate EV, it needs to be converted into luminance
+  * The LUX value is a measure of illuminance, which is how much light is falling on a surface, while luminance is the light that is reflected off of a surface
 
 ### My successes this week were:
 
-[Your answer here]
+* Researching how to convert a LUX value to EV
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Getting my hands on a Mac
+* Understanding the formulas to calculate EV
 
 ---
 
