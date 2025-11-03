@@ -109,22 +109,22 @@
 
 ---
 
-## Week 6 Summary (MM/DD/YYYY)
+## Week 6 Summary (11/02/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Learning Swift and XCode hands-on with a Mac
 
 ### This week I learned:
 
-[Your answer here]
+* How to display images, text, and built-in assets
 
 ### My successes this week were:
 
-[Your answer here]
+* Learning SwiftUI and thinking about how I could implement the built-in assets into my app
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Trying to implement the built-in wheel selector, like there is in the timer app
 
 ---
 
