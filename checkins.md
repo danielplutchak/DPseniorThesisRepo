@@ -128,22 +128,25 @@
 
 ---
 
-## Week 7 Summary (MM/DD/YYYY)
+## Week 7 Summary (11/09/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Continuing to learn SwiftUI
 
 ### This week I learned:
 
-[Your answer here]
+* Apple offers a [good learning resource](https://developer.apple.com/tutorials/develop-in-swift/) for developing IOS apps
+* Formatting and customizing text
+* Adding a wheel picker for the light meter
 
 ### My successes this week were:
 
-[Your answer here]
+* Learning about the wheel picker, it will be perfect for the light meter
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Finding good learning resources
+* Figuring out how the content view and backend interacts
 
 ---
 
