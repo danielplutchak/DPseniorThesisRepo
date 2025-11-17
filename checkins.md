@@ -150,23 +150,25 @@
 
 ---
 
-## Week 8 Summary (MM/DD/YYYY)
+## Week 8 Summary (11/16/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Learning more about SwiftUI
+* Figuring out how to add a live camera feed into the app
 
 ### This week I learned:
 
-[Your answer here]
+* How to implement a split view with two assets, which in my app will be the wheel picker and the camera
+* There is not an easy way to implement a live camera view
 
 ### My successes this week were:
 
-[Your answer here]
+* Continuing to learn SwiftUI, from here I feel like I can focus on learning the programming side of Swift
 
 ### The challenges I faced this week were:
 
-[Your answer here]
-
+* Trying to implement the live camera feed, it seems like the implementation isn't going to be straightforward and there will be a lot to learn to get it working
+  
 ---
 
 ## Week 9 Summary (MM/DD/YYYY)
