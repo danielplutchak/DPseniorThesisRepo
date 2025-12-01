@@ -171,41 +171,43 @@
   
 ---
 
-## Week 9 Summary (MM/DD/YYYY)
+## Week 9 Summary (11/23/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Implementing the wheel picker for the exposure settings
 
 ### This week I learned:
 
-[Your answer here]
+* There needs to be multiple instances of Pickers in a horizontal stack
+* Better understanding of parameters and variables in Swift
 
 ### My successes this week were:
 
-[Your answer here]
+* Creating a SwiftUI View file for the exposure settings picker
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* I could not implement the wheel style of Picker, even though all the syntax looks right and no warnings or errors occur when building and previewing the scene
+* Spacing the pickers in a nice-looking way is proving to be difficult
 
 ---
 
-## Week 10 Summary (MM/DD/YYYY)
+## Week 10 Summary (11/30/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Testing the live camera feed on my phone
 
 ### This week I learned:
 
-[Your answer here]
+* There needs to be more time put into implementing the live camera
 
 ### My successes this week were:
 
-[Your answer here]
+* Running my project on my own phone for the first time
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* The camera preview did not work, so I will need to continue research on how to write code that will work
 
 ---
 
