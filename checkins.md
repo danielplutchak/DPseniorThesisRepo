@@ -211,22 +211,26 @@
 
 ---
 
-## Week 11 Summary (MM/DD/YYYY)
+## Week 11 Summary (12/07/2025)
 ### This week I worked on:
 
-[Your answer here]
+* Getting the camera running on my phone
+* Getting the wheel picker objects to appear correctly
 
 ### This week I learned:
 
-[Your answer here]
+* After checking if the user gave permission to use the camera, I needed to make sure to initiate reading in frames
+* The wheel style of picker only works inside a VStack and not an HStack, which explains why it wasn't displaying correctly
 
 ### My successes this week were:
 
-[Your answer here]
+* Implementing the camera preview
+* Implementing the wheel pickers
+* Running the app on my phone
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+* Actually understanding how the camera preview works, and being able to explain it with words
 
 ---
 
