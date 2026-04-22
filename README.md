@@ -1,4 +1,4 @@
-# Senior Thesis Repo: Multi Light Meter App
+# Senior Thesis Repo: Light Meter App
 This repository is provided to help you build your senior thesis project. You will edit it to store your specification documents, code, and weekly checkins.
 
 First, fork this repo (this makes a copy of it associated with your account) and then clone it to your machine (this makes a copy of your fork on your personal machine). You can then use an editor and a GitHub client to manage the repository.
@@ -37,16 +37,18 @@ If you have any questions feel free to ask me! I'll answer professor questions, 
 
 Along with computer science, another one of my passions is analog photography. I love shooting photos on film and the process of developing film and creating prints in the darkroom. When shooting film, an extremely useful tool I use often is a light meter. This tool tells you what settings you could set on your camera to produce a negative that has good exposure.
 
-When shooting film, I sometimes like to take multiple exposures onto one negative to create an overlay-type effect. Since multiple exposures mean that more light will be exposed to the negative, the settings on the camera need to be different to accommodate. Standard light meters do not have any functionality for multiple exposures, so it can be diffucult to find "correct" exposure settings. To fix this issue, I will create a light meter app that not only acts as a standard meter, but also will have addiontial functionality for double exposures.
+A light meter is useful to me because the film cameras I own do not have built-in light meters, so for every photo, I need to manually set the exposure settings. When I'm outside during a sunny day, this it isn't a problem since I know what settings will produce a good exposure. However, when I want to take a photo during inclement weather conditions or indoors, it is often hard to tell what settings to use. A light meter is the solution for this, as it can tell the user what would be the best settings use for any given lighting condition.
+
+The problem is, I have an iPhone, and all the light meter apps on the iOS App Store require some sort of payment, whether it is an up-front payment or a free app with features locked behind a paid subscription. To solve this problem, I am making my own light meter app for personal use, so I do not need to pay to use this extremely helpful tool.
 
 ### Purpose
 
-The purpose of this document is to outline the functional and non-functional requirements of the Multi Light Meter app. This app will be designed to be an easy-access light meter that aids the user by outputting precise exposure settings to use when shooting a photo on a camera.
+The purpose of this document is to outline the functional and non-functional requirements of the Light Meter app. This app will be designed to be an easy-access light meter that aids the user by outputting precise exposure settings to use when shooting a photo on a camera.
 
 The key goals of this app are:
 - To offer an easy-access light meter for shooting on an analog camera, or digital camera if desired.
 - To output accurate exposure settings with functionality to lock shutter speed, aperture, and ISO settings.
-- To provide additional functionality for photos utilizing multiple exposures.
+- To have a straight-forward, easy to use design
 
 ### Scope
 This app is intended to function by using information from the camera and creating an output that shows proper exposure settings. The app will handle:
@@ -63,16 +65,16 @@ This app is intended to function by using information from the camera and creati
 - **f-stop**: A measure of how small or large the aperture is. The smaller the f-stop, the larger the aperture.
 - **ISO**: Stands for “International Organisation for Standardisation.” A measurement that describes the "speed" of the film. The higher the ISO, the brighter and grainer the image will be.
 - **EV**: Stands for "exposure value," a value that represents the combination of the shutter speed and aperature settings that create a specific exposure.
+- **Exposure Triangle**:
 
 ## Overview
-The Mahoney University Registration System is a web-based platform designed to automate the course registration process for students and faculty. It serves as the primary interface for students to manage their academic schedules and for university staff to oversee the course offerings and registration workflows.
-
-The Multi Light Meter app is an IOS app designed to provide a fast and efficient output of what camera settings would be appropriate for the what the camera is pointing at.
+Light Meter is an IOS app designed to provide a fast and efficient output of what camera settings would be appropriate for the what the camera is pointing at.
 
 ### System Features:
-1. **Standard Mode**: Allows the user to point the phones' camera and receive exposure settings that produce a properly-exposed photo
-2. **Lock Feature**: The user can lock any of the three settings, and the light meter will output the other setting(s) that will give a proper exposure along with the locked value.
-3. **Multiple Exposure Mode**: Allows the user to set number of exposures, takes photos to save the light values, and will give suitable exposure settings for the multiple exposures.
+1. **Camera Display**: The app features a camera preview so the user can see what the camera is pointing at, and know what lighting conditions the program is reading in.
+2. **Unlock Settings**: The user can choose one setting to be unlocked, which makes the other two settings locked.
+3. **Set Locked Settings**: The user can set the two locked settings to be specific values they want to shoot thier photos with, which will affect the output of the unlocked setting.
+4. **Output Unlocked Setting Value**: Given the camera input and the set values of the locked settings, the program will output a value for a proper exposure for the unlocked setting.
 
 ## Use Cases
 
