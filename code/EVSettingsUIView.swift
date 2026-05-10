@@ -25,7 +25,7 @@ struct EVSettingsUIView: View {
     @ObservedObject var model: FrameHandler
     //values for pickers
     let speedVals: [String] = ["2\"", "1\"", "1/2", "1/4", "1/8", "1/15", "1/30", "1/60", "1/125", "1/250", "1/500", "1/1000"]
-    let apertureVals: [String] = ["2.8", "4", "5.6", "8", "11", "16", "22"]
+    let apertureVals: [String] = ["1.8", "2.8", "4", "5.6", "8", "11", "16", "22"]
     let isoVals: [Int] = [25, 50, 100, 200, 400, 800, 1600, 3200, 6400]
     
     //@State allows variables to update
@@ -33,10 +33,7 @@ struct EVSettingsUIView: View {
     @State private var speedVal = "1/60"
     @State private var apertureVal = "8"
     @State private var ISOVal = 400
-//    //variables for updating picker values
-//    @State private var newSpeedVal = ""
-//    @State private var newApertureVal = ""
-//    @State private var newISOVal = 0
+
     //unlocked setting is the setting where value will be getting calculated
     @State private var unlockedSetting: Setting = .shutterSetting
     //holds current exposure settings camera is displaying
@@ -277,9 +274,6 @@ struct EVSettingsUIView: View {
             
             //find what needs to be solved for using unlocked setting and call solve function for respective setting
             if unlockedSetting == .shutterSetting {
-                
-                //if let is similar to guard let, but if let creates a local variable within the scope of if
-                //guard let allows the variable to be used elsewhere
                 
                 //if let makes sure variable is not nil, is contained in the Picker array, and it a new value than what is already displayed in the Picker
                 if let newSpeedVal = solveForShutterSpeed(exposure),
