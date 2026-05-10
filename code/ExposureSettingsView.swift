@@ -1,9 +1,9 @@
-//
+
 //  ExposureSettingsView.swift
 //  Light Meter
 //
 //  Created by Daniel Plutchak on 12/1/25.
-//
+
 //import SwiftUI
 //import Combine
 //import AVFoundation
@@ -17,7 +17,7 @@
 //struct ExposureSettingsView: View {
 //    @ObservedObject var model: FrameHandler //pass in FrameHandler so this file has access to AVCaptureDevice
 //    let shutterSpeeds: [String] = ["1\"", "1/2", "1/4", "1/8", "1/15", "1/30", "1/60", "1/125", "1/250", "1/500", "1/1000"]
-//    let apertures: [String] = ["2.8", "4", "5.6", "8", "11", "16", "22"]
+//    let apertures: [String] = ["1.8", "2.8", "4", "5.6", "8", "11", "16", "22"]
 //    let iso: [Int] = [25, 50, 100, 200, 400, 800, 1600, 3200, 6400]
 //    
 //    @State private var speedVal = "1/60"
@@ -91,7 +91,7 @@
 //                Picker("Aperture", selection: $apertureVal) {
 //                    ForEach(apertures, id: \.self) { option in
 //                        Text(option)
-//                    }//big fat pussy fart
+//                    }
 //                }
 //                .pickerStyle(.wheel)
 //                
@@ -108,9 +108,8 @@
 //                        Text(verbatim: "\(option)").tag(option)
 //                    }
 //                }
-//                .pickerStyle(.wheel)//dicker style
+//                .pickerStyle(.wheel)
 //            }
-//        }//swift kick in the anus
 //        .onReceive(timer) { _ in
 //            guard let exposure = getExposure() else { return }
 //            currentExposure = exposure
@@ -161,13 +160,12 @@
 //        // Return closest ISO from the array
 //        let closest = iso.min(by: { abs($0 - isoValue) < abs($1 - isoValue) }) ?? ISOVal
 //        return closest
-//        //return into the closet
 //        
 //    }
 //}
 //
 //#Preview {
 //    ExposureSettingsView(model: FrameHandler())
-//}// ksdjhk cjldfnvi;jzdjnvyik dckf irtbgv kjldbvlusfghvkjcx jnb j nlvnsljzxcn bhkjv bdnmfv jkrsdcn nvf i love you you pooop hahaha lol jk i love you again epwofkmkasfvdfvjhfvm di g sdlfiorjfmsdnjcvthe state its a bluff
-////
+//}
+//
 //
